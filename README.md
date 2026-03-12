@@ -1,59 +1,209 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Home</title>
+    <link rel="stylesheet" href="../Css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#home" class="logo">Portfolio</a>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to My <span>Portfolio</span></h1>
+                <p class="subtitle">Creative Developer & Designer crafting beautiful digital experiences</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+        </section>
 
-## About Laravel
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2>About Me</h2>
+                    <p>Passionate about creating elegant solutions to complex problems</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text fade-in">
+                        <h3>Building Digital Experiences That Matter</h3>
+                        <p>I am a passionate developer dedicated to creating beautiful, functional websites and applications. With a focus on clean code and user experience, I strive to bring ideas to life through elegant solutions.</p>
+                        <p>My approach combines technical expertise with creative thinking to deliver results that not only meet but exceed expectations. I believe in continuous learning and staying updated with the latest technologies.</p>
+                        
+                        <div class="skills">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">UI/UX Design</span>
+                            <span class="skill-tag">Git</span>
+                        </div>
+                    </div>
+                    <div class="about-stats fade-in">
+                        <div class="stat-item">
+                            <span class="number">5+</span>
+                            <span class="label">Years Exp.</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="number">50+</span>
+                            <span class="label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="number">30+</span>
+                            <span class="label">Clients</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2>My Projects</h2>
+                    <p>A selection of my recent work across various industries</p>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-icon">💼</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>E-Commerce Platform</h3>
+                            <p>A full-featured online store with secure payments, inventory management, and responsive design for seamless shopping on any device.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">React</span>
+                                <span class="project-tag">Node.js</span>
+                                <span class="project-tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-icon">📱</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Mobile App</h3>
+                            <p>A cross-platform mobile application with intuitive UI, real-time features, and offline capabilities for enhanced user experience.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">React Native</span>
+                                <span class="project-tag">Firebase</span>
+                                <span class="project-tag">Redux</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-icon">🎨</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Portfolio Website</h3>
+                            <p>A modern, responsive portfolio website featuring smooth animations, clean design, and optimal performance across all devices.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML/CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                                <span class="project-tag">Animation</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-icon">📊</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Dashboard System</h3>
+                            <p>An analytics dashboard with data visualization, real-time updates, and customizable widgets for business intelligence.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Vue.js</span>
+                                <span class="project-tag">D3.js</span>
+                                <span class="project-tag">API</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-icon">🔒</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Authentication System</h3>
+                            <p>Secure user authentication with OAuth, two-factor verification, and role-based access control for web applications.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Node.js</span>
+                                <span class="project-tag">JWT</span>
+                                <span class="project-tag">Security</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-icon">🌐</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>CMS Platform</h3>
+                            <p>A custom content management system with rich text editing, media management, and SEO optimization tools.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">PHP</span>
+                                <span class="project-tag">MySQL</span>
+                                <span class="project-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2>Get In Touch</h2>
+                    <p>Have a project in mind or want to collaborate? Let's talk!</p>
+                </div>
+                <div class="contact-content fade-in">
+                    <p>Feel free to reach out for collaborations, project inquiries, or just to say hello. I'm always open to discussing new opportunities and creative ideas.</p>
+                    <div class="contact-links">
+                        <a href="mailto:jasonduru17@gmail.com" class="contact-link">
+                            <span>📧</span> Email Me
+                        </a>
+                        <a href="#" class="contact-link">
+                            <span>💼</span> LinkedIn
+                        </a>
+                        <a href="#" class="contact-link">
+                            <span>🐙</span> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Portfolio. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
 
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+    <script src="../JavaScript/script.js"></script>
+</body>
+</html>
