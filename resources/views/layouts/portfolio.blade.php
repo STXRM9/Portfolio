@@ -39,6 +39,22 @@
         <!-- Styles / Scripts -->
         @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
             @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @else
+            {{-- Fallback: Use Tailwind CDN when build doesn't exist (for production on servers without Node.js) --}}
+            <script src="https://cdn.tailwindcss.com"></script>
+            <script>
+                tailwind.config = {
+                    darkMode: 'class',
+                    theme: {
+                        extend: {
+                            colors: {
+                                dark: '#0a0a0a',
+                                primary: '#3b82f6',
+                            }
+                        }
+                    }
+                }
+            </script>
         @endif
     </head>
     <body class="bg-dark text-white antialiased">
